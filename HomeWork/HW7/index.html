@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+
+  <video src="img/video.MP4" poster="img/images.jpg" controls height="500"  width="auto"></video>
+  <video src="img/video2.webm" autoplay muted height="500"  width="auto"></video>
+  <video src="img/video3.ogv" controls height="500"  width="auto"></video><br>
+  <audio src="img/track.mp3" controls></audio>
+  <audio src="img/track2.ogg"></audio>
+  <form action="#">
+    <p>
+      <input type="text" name="name" placeholder="Your name" required>
+    </p>
+    <p>
+      <input type="tel" name="telephone" placeholder="Your tel number" required>
+    </p>
+    <p>
+      <label>Choose your size</label><br>
+      <input type="checkbox" name="check" value="xs">XXS<br>
+      <input type="checkbox" name="check" value="xs">XS<br>
+      <input type="checkbox" name="check" value="xs" checked>S<br>
+      <input type="checkbox" name="check" value="xs">M<br>
+      <input type="checkbox" name="check" value="xs">L<br>
+      <input type="checkbox" name="check" value="xs">XL<br>
+      <input type="checkbox" name="check" value="xs">XXL<br>
+      <input type="checkbox" name="check" value="xs">XXXL<br>
+    </p>
+    <p>
+      <textarea name="message" cols="25" rows="5" maxlength="200"></textarea>
+    </p>
+    <button>Send</button>
+    <p>
+      <input type="hide">check
+    </p>
+
+    <details>
+      <summary>Show text!</summary>
+      <p>Hello!</p>
+      <p>How are you?</p>
+    </details>
+  </form>
+</body>
+</html>
