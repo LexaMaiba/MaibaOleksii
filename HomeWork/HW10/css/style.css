@@ -1,0 +1,35 @@
+body {
+  background: #f1f1f1;
+}
+
+.block {
+  display: flex;
+}
+
+.gif {
+  margin: 100px 0 0 100px;
+}
+
+.content {
+  margin-left: 25%;
+}
+
+.error {
+  font-size: 140px;
+  color: darkorchid;
+}
+
+.text {
+  font-size: 22px;
+  margin-bottom: 80px;
+}
+
+.btn {
+  border: 1px solid #0000cd;
+  background-color: #0000cd;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+  text-decoration: none;
+}
