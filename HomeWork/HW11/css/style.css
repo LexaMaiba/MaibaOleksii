@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(../img/bg2.jpg) no-repeat center / cover;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  margin-top: 200px;
+}
+
+.content {
+  width: 50%;
+}
+
+.one {
+  margin-right: 15px;
+}
+
+.top {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.text {
+  text-transform: lowercase;
+  text-indent: 20px;
+  color: #fff;
+}
+
+.name {
+  width: 100%;
+}
+
+.btn {
+  background-color: chocolate;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 15px;
+  border: 1px solid peru;
+  cursor: pointer;
+  text-decoration: none;
+}
