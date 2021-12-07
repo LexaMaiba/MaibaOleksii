@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block {
+  margin-top: 20px;
+  height: 300px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #000;
+  background: #623d94;
+  width: auto;
+  transition: 0.6s;
+  margin: 40px 50px 0px 50px;
+  display: flex;
+}
+
+.block:hover {
+  background: #1fbfbf;
+}
+
+ul {
+  list-style-image: url(../img/rocket.svg);
+  margin-left: 30%;
+  padding-top: 100px;
+}
+
+.contacts {
+  padding: 100px 0 0 200px;
+}
+
+.contacts-link {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+  position: relative;
+}
+
+.contacts-link:after {
+  background-color: #f66d52;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.contacts-link:hover:after,
+.contacts-link:hover {
+  width: 100%;
+  color: #1a331b;
+  font-size: 22px;
+}
