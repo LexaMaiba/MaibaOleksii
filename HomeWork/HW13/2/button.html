@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>button</title>
+</head>
+<style>
+
+  /* 1 Способ */
+
+  .reviews:before{
+    content: "Кнопка";
+    color: #000;
+    font-size: 18px;
+    position: absolute;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: #ccc;
+    padding: 4px;
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  .reviews:hover:before{
+    background-color: lightblue;
+    color: #7a1a72;
+  }
+
+  .reviews a{
+    position: inherit;
+    color: #fff;
+  }
+
+  /* 2 Способ */
+
+  /* .reviews::after{
+    content: "Кнопка";
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+     position: relative;
+    background-color: #ccc;
+    padding: 4px;
+    border-radius: 5px;
+  }
+
+  .reviews a{
+    visibility: hidden;
+    position: absolute;
+  } */
+
+
+  /* 2 Способ */
+
+  /* .reviews {
+  position: absolute;
+  visibility: hidden;
+}
+
+.reviews:before {
+  content: "Кнопка";
+  visibility: visible;
+} */
+
+</style> 
+<body>
+  <div class="reviews">
+	<a href="#">Button</a>
+  </div>
+</body>
+</html>
