@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+ 
+<script>
+  function disp(container) {
+    if (container.style.display == "none") {
+      container.style.display = "block";
+    } else {
+      container.style.display = "none";
+    }
+    
+  }
+</script>
+</head>
+
+<header class="header">
+    <a href="#" class="logo">
+      <img src="img/meta-logo.png" alt="logo">
+    </a>
+
+    <nav class="navbar">
+      <a href="#">About</a>
+      <a href="#">Menu</a>
+      <a href="#">Contact</a>
+      <a href="#">Blogs</a>
+    </nav>
+
+    <div class="icons">
+      <div><i class='bx bx-user' onclick="disp(document.getElementById('form1'))"></i></div>
+    </div>
+  </header>
+
+<body>
+  <main>
+
+    <section class="home">
+    
+      <div class="content">
+        <h1>Lorem, ipsum dolor.</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse, odio!</p>
+      </div>
+    
+    </section>
+    
+    <div class="container" style="display: none;" id="form1">
+      <h2 onclick="disp(document.getElementById('form1'))">Form</h2>
+      
+        <div class="section">
+          <form action="#" >
+            <div class="form">
+              <input type="text" placeholder="Enter Name" name="name" required>
+            </div>
+            <div class="form">
+              <input type="email" placeholder="Enter E-mail" name="email" required>
+            </div>
+            <textarea name="message" cols="20" rows="3" maxlength="200" placeholder="Enter message"></textarea>
+            <button class="btn">Send</button>
+          </form>
+        </div>
+    </div>
+  </main>
+</body>
+</html>
